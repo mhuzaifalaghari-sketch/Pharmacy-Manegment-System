@@ -54,8 +54,38 @@ This is a desktop app for small pharmacies to manage inventory, track sales, and
 <img width="773" height="427" alt="Expiry" src="https://github.com/user-attachments/assets/1aad1af3-663a-4412-8c11-53aaea311977" />
 
 ## How to Run
+Before running the project install the following 
+
+* Visual Studio 2022 with Desktop development with C++
+* Qt 6
+* Qt Visual Studio Tools extension 
+* Git
+---
+
+## 1. Clone the Repository
 
 ```bash
 git clone https://github.com/mhuzaifalaghari-sketch/Pharmacy-Manegment-System.git
 cd Pharmacy-Manegment-System
-# visual studio or Qt Creator  Build  Run
+```
+
+## 2. Open the Project
+### Visual Studio 2022
+
+1. Open the .sln file.
+2. Make sure Qt Visual Studio Tools is installed.
+3. Ensure the correct Qt version is selected.
+
+
+## 3. Build the Project
+
+Build the project using:
+
+* Build → Build Solution
+---
+## Database
+
+The application uses SQLite.
+
+On the first run, the SQLite database will be created automatically if it does not already exist.
+---
