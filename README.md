@@ -56,6 +56,6 @@ This is a desktop app for small pharmacies to manage inventory, track sales, and
 ## How to Run
 
 ```bash
-git clone https://github.com/yourusername/MedStockPro.git
-cd MedStockPro
+git clone https://github.com/mhuzaifalaghari-sketch/Pharmacy-Manegment-System.git
+cd Pharmacy-Manegment-System
 # visual studio or Qt Creator  Build  Run
